@@ -1,0 +1,1 @@
+Learning about NoSQL and how to use MongoDB (NoSQL language of databases)
