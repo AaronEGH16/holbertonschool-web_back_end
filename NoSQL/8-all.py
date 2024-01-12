@@ -2,11 +2,9 @@
 """
 this module contains a list_all function definition
 """
-from typing import List
-from pymongo.collection import Collection
 
 
-def list_all(mongo_collection: Collection) -> List:
+def list_all(mongo_collection):
     """
     this function get a MongoDB collection
     and return a list of all collection elements
