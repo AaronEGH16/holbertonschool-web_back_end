@@ -3,3 +3,8 @@ NoSQL/__pycache__/
 pagination/*-main.py
 pagination/__pycache__
 pagination/Popular_Baby_Names.csv
+ES6_basic/node_modules
+ES6_basic/.eslintrc.js
+ES6_basic/babel.config.js
+ES6_basic/package-lock.json
+ES6_basic/package.json
