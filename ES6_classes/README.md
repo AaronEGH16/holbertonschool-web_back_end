@@ -1,0 +1,1 @@
+Learning how to make a class in JS and how to use it.
