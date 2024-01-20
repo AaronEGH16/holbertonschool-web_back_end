@@ -35,7 +35,9 @@ export class StudentHolberton {
   }
 
   get holbertonClass() {
-    return this.holbertonClass;
+    /* eslint-disable */
+    return this._holbertonClass;
+    /* eslint-enable */
   }
 
   get fullStudentDescription() {
