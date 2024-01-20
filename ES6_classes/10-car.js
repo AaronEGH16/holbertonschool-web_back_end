@@ -8,6 +8,8 @@ export default class Car {
   }
 
   cloneCar() {
-    return new this.constructor();
+    /* check for Symbol.species if not found it return normal constructor */
+    const Constructor = this.constructor[Symbol.species] || this.constructor;
+    return new Constructor();
   }
 }
