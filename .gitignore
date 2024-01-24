@@ -15,3 +15,10 @@ ES6_classes/babel.config.js
 ES6_classes/package-lock.json
 ES6_classes/package.json
 ES6_classes/*-main.js
+ES6_promise/node_modules
+ES6_promise/.eslintrc.js
+ES6_promise/babel.config.js
+ES6_promise/package-lock.json
+ES6_promise/package.json
+ES6_promise/*-main.js
+ES6_promise/utils.js
