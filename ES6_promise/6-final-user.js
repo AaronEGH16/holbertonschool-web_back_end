@@ -5,5 +5,10 @@ export default function handleProfileSignup(firstName, lastName, fileName) {
   return Promise.allSettled([
     signUpUser(firstName, lastName),
     uploadPhoto(fileName),
-  ]).then((res) => res);
+  ]).then((result) => (
+    result.map((data) => ({
+      status: data.status,
+      value: data.value ? data.value : String(data.reason),
+    }))
+  ));
 }
