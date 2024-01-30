@@ -22,3 +22,9 @@ ES6_promise/package-lock.json
 ES6_promise/package.json
 ES6_promise/*-main.js
 ES6_promise/utils.js
+ES6_data_manipulation/node_modules
+ES6_data_manipulation/.eslintrc.js
+ES6_data_manipulation/babel.config.js
+ES6_data_manipulation/package-lock.json
+ES6_data_manipulation/package.json
+ES6_data_manipulation/*-main.js
